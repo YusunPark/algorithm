@@ -1,14 +1,9 @@
-i = input()
+num = int(input())
 
-if(i[2] == ' '):
-    pass
-else:
-
-    num, str = i.split()
-    num = int(num)
+for n in range(num):
+    count, str = input().split()
+    count = int(count)
     output = ''
-
     for s in str:
-        output += s*num
-
+        output += s*count
     print(output)

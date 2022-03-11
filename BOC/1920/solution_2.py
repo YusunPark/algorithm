@@ -1,4 +1,4 @@
-# 시간 초과
+# 완전 탐색 : 시간 초과
 
 n = int(input())
 a = input().split(" ")

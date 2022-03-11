@@ -1,3 +1,5 @@
+# 이진탐색 : 45916kb , 704ms
+
 def binary(array, low, high, value):
     if low > high:
         return 0

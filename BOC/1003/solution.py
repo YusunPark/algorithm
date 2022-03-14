@@ -1,5 +1,5 @@
 global listA
-global ListB
+global listB
 
 list0 = [0]*41
 list1 = [0]*41

@@ -1,8 +1,10 @@
 def solution(phone_book):
     phone_book.sort()
-    
-    for str1, str2 in zip(phone_book, phone_book[1:]):
-        if str2.startswith(str1):
+    print(phone_book)
+
+    for i in range(len(phone_book)-1):
+        word = phone_book[i] 
+        if word in phone_book[i+1][:len(word)]:
             return False
     return True
 

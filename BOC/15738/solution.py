@@ -11,12 +11,10 @@ for _ in range(m):
     if num > 0 and num > idx:
         idx += ((num-1)/2 - idx) * 2
 
-    elif num < 0 and n+num < idx:
-
-
+    elif num < 0 and n+num <= idx:
         idx += ((abs(num)-1)/2 - (idx-(n+num)))*2
 
     else:
         pass
 
-print(idx+1)
+print(int(idx+1))
